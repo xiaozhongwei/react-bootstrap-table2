@@ -7,7 +7,7 @@ const PaginationTotal = (props) => {
   }
   return (
     <span className="react-bootstrap-table-pagination-total">
-      &nbsp;Showing rows { props.from } to&nbsp;{ props.to } of&nbsp;{ props.dataSize }
+      &nbsp;当前显示从 { props.from } 到&nbsp;{ props.to }条，总共有&nbsp;{ props.dataSize }条数据
     </span>
   );
 };
